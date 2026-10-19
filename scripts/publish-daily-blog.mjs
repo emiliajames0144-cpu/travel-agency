@@ -5,11 +5,11 @@ import vm from 'node:vm';
 
 const ROOT = dirname(dirname(fileURLToPath(import.meta.url)));
 const BLOG_FILE = join(ROOT, 'data', 'blogs.js');
-const MODEL = process.env.OPENAI_MODEL || 'gpt-6-luna';
-const API_KEY = process.env.OPENAI_API_KEY;
+const MODEL = process.env.GEMINI_MODEL || 'gemini-3.5-flash-lite';
+const API_KEY = process.env.GEMINI_API_KEY;
 const MAX_ATTEMPTS = 2;
 
-if (!API_KEY) throw new Error('Missing OPENAI_API_KEY. Add it as a GitHub Actions repository secret.');
+if (!API_KEY) throw new Error('Missing GEMINI_API_KEY. Add a Google AI Studio API key as a GitHub Actions repository secret.');
 
 function siteDate() {
   const parts = new Intl.DateTimeFormat('en-CA', {
@@ -130,25 +130,30 @@ Return only the requested structured article. Use concise SEO-friendly title and
 }
 
 async function requestArticle(date, posts, photos, retryNote = '') {
-  const response = await fetch('https://api.openai.com/v1/responses', {
+  const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(MODEL)}:generateContent`, {
     method: 'POST',
-    headers: { Authorization: `Bearer ${API_KEY}`, 'Content-Type': 'application/json' },
+    headers: { 'x-goog-api-key': API_KEY, 'Content-Type': 'application/json' },
     signal: AbortSignal.timeout(180_000),
     body: JSON.stringify({
-      model: MODEL,
-      reasoning: { effort: 'low' },
-      max_output_tokens: 12_000,
-      input: [
-        { role: 'system', content: 'You are the senior travel editor for Serein. Write original, polished, actionable travel journalism. Never invent live facts, citations, businesses, or quotations.' },
-        { role: 'user', content: `${editorialBrief(date, posts, photos)}\n\n${retryNote}` }
-      ],
-      text: { format: { type: 'json_schema', name: 'serein_daily_article', strict: true, schema: makeSchema(photos.length, [...new Set(posts.map(post => post.category))]) } }
+      systemInstruction: {
+        parts: [{ text: 'You are the senior travel editor for Serein. Write original, polished, actionable travel journalism. Never invent live facts, citations, businesses, or quotations.' }]
+      },
+      contents: [{
+        role: 'user',
+        parts: [{ text: `${editorialBrief(date, posts, photos)}\n\n${retryNote}` }]
+      }],
+      generationConfig: {
+        responseMimeType: 'application/json',
+        responseJsonSchema: makeSchema(photos.length, [...new Set(posts.map(post => post.category))]),
+        maxOutputTokens: 12_000
+      }
     })
   });
   const payload = await response.json();
-  if (!response.ok) throw new Error(`OpenAI API error ${response.status}: ${JSON.stringify(payload.error || payload).slice(0, 1200)}`);
-  const outputText = payload.output?.flatMap(item => item.content || []).find(item => item.type === 'output_text')?.text;
-  if (!outputText) throw new Error('The AI response did not contain an article.');
+  if (!response.ok) throw new Error(`Gemini API error ${response.status}: ${JSON.stringify(payload.error || payload).slice(0, 1200)}`);
+  const candidate = payload.candidates?.[0];
+  const outputText = candidate?.content?.parts?.map(part => part.text || '').join('').trim();
+  if (!outputText) throw new Error(`Gemini did not return article text${candidate?.finishReason ? ` (finish reason: ${candidate.finishReason})` : ''}.`);
   return JSON.parse(outputText);
 }
 
