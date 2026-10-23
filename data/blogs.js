@@ -1,6 +1,154 @@
 /* One source of truth for the Serein blog. Images are selected from the approved existing photo library. */
 window.SEREIN_BLOGS = [
   {
+    "slug": "finding-stillness-on-the-water",
+    "title": "Finding Stillness on the Water",
+    "subtitle": "The quiet art of coastal navigation and maritime travel",
+    "category": "Coastlines",
+    "tags": [
+      "Coastlines",
+      "Ways to travel",
+      "Considered details",
+      "Open spaces"
+    ],
+    "author": "Serein Editorial",
+    "publishDate": "2026-10-23",
+    "readTime": "5 min read",
+    "heroImage": {
+      "src": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1200&q=78&fm=webp",
+      "alt": "A bright sea cove seen from above"
+    },
+    "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=2000&q=82&fm=webp",
+        "alt": "A still mountain lake reflecting surrounding peaks",
+        "caption": "A still mountain lake reflecting surrounding peaks, mirroring the tranquility found on open water."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=78&fm=webp",
+        "alt": "A wooded path inviting a quiet walk",
+        "caption": "A wooded path inviting a quiet walk, echoing the reflective pace of a considered maritime journey."
+      }
+    ],
+    "blocks": [
+      {
+        "type": "lead",
+        "text": "There is a distinct cadence to traveling where the map is defined by water rather than asphalt. Maritime journeys demand an acceptance of tides, winds, and the unhurried speed of vessels that have crossed the same straits for generations. When we trade the motorway for the deck of a ferry or the wooden bench of a coastal skiff, travel ceases to be about arrival and becomes an exercise in observation. This is an invitation to slow down, to watch the shoreline shift from jagged cliffs to soft salt marshes, and to rediscover the clarity that comes from being untethered from the land."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "finding-stillness-on-the-water-embracing-the-maritime-pace",
+        "title": "Embracing the Maritime Pace"
+      },
+      {
+        "type": "paragraph",
+        "text": "Modern travel often prioritizes speed above all else, measuring success by how quickly we can cross a geographic divide. Yet coastal journeys operate under an entirely different logic, one governed by maritime traffic, shifting currents, and the daily rhythm of the tides. To step onto a coastal vessel is to surrender control over the clock in exchange for something far more valuable: uninterrupted time to think, read, and watch the horizon."
+      },
+      {
+        "type": "paragraph",
+        "text": "On the water, the passage of time is marked not by digital notifications, but by the changing angle of light on the water and the distant silhouette of headlands coming into focus. This unhurried pace acts as a mental reset. Without the constant demand to make decisions or navigate crowded streets, the mind settles into a calm, receptive state that stays with you long after you step back onto dry land."
+      },
+      {
+        "type": "image",
+        "imageIndex": 0
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "finding-stillness-on-the-water-reading-the-coastal-weather",
+        "title": "Reading the Coastal Weather"
+      },
+      {
+        "type": "paragraph",
+        "text": "One of the great pleasures of traveling along coastlines is learning to read the sky and the water before departure. Unlike inland destinations where weather forecasts are often accepted without a second thought, life by the sea requires a more tactile relationship with the elements. You begin to notice the low bank of grey clouds rolling in from the open ocean, the sudden stillness of the air before a shift in wind, or the way local gulls congregate near the harbor wall."
+      },
+      {
+        "type": "paragraph",
+        "text": "This heightened awareness transforms how you experience the journey. Instead of being inconvenienced by a sudden sea mist or a brisk offshore wind, you come to appreciate these atmospheric shifts as part of the region's character. Checking local marine conditions and speaking with harbor masters or experienced deckhands provides practical context that no digital app can replicate, grounding your journey in local knowledge."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "finding-stillness-on-the-water-packing-for-the-salt-air",
+        "title": "Packing for the Salt Air"
+      },
+      {
+        "type": "paragraph",
+        "text": "A successful coastal journey begins with a thoughtful approach to luggage. The sea environment is notoriously unforgiving on unsuited materials, bringing damp air, sudden gusts, and the occasional spray of saltwater. Packing light with durable, natural fabrics—such as tightly woven wools, waxed cottons, and sturdy canvas—ensures you remain comfortable regardless of what the weather decides to do mid-journey."
+      },
+      {
+        "type": "paragraph",
+        "text": "Consider bringing layers that can be easily added or removed as you move from the sheltered warmth of an interior salon to the bracing wind of an open deck. A windproof outer layer, a secure hat with a brim, and polarized sunglasses to cut the glare off the water are essential companions. By keeping your luggage minimal and functional, you move through ports and across gangways with effortless grace."
+      },
+      {
+        "type": "practical",
+        "title": "Essential Coastal Preparations",
+        "items": [
+          {
+            "label": "Tide Awareness",
+            "value": "Always verify local tide charts and harbor schedules before embarking on coastal walks or small vessel crossings."
+          },
+          {
+            "label": "Layering System",
+            "value": "Pack windproof outerwear and natural moisture-resistant layers to adapt swiftly to changing maritime weather."
+          },
+          {
+            "label": "Luggage Choice",
+            "value": "Opt for soft, water-resistant duffels or structured canvas bags that stow easily in tight cabin spaces."
+          },
+          {
+            "label": "Navigation Check",
+            "value": "Confirm seasonal ferry timetables locally, as departures frequently shift with daylight hours and sea states."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "imageIndex": 1
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "finding-stillness-on-the-water-the-architecture-of-coastal-harbors",
+        "title": "The Architecture of Coastal Harbors"
+      },
+      {
+        "type": "paragraph",
+        "text": "Arriving at a coastal port by water offers a perspective that land-based travelers rarely experience. From the deck, you watch the town unfold gradually—the cluster of slate-roofed houses climbing the hillside, the timber pylons of the old piers, and the network of slipways that speak to a deep, enduring relationship with the sea. This approach provides an immediate visual history of the community and its maritime heritage."
+      },
+      {
+        "type": "paragraph",
+        "text": "Take time to wander the working docks before venturing into the interior streets. The sights and sounds of nets being mended, small fishing boats unloading their catch, and the steady creak of mooring lines offer an authentic glimpse into local life. These working areas are the beating heart of any coastal destination, remaining remarkably resilient against the tide of mass tourism."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "finding-stillness-on-the-water-finding-solitude-beyond-the-pier",
+        "title": "Finding Solitude Beyond the Pier"
+      },
+      {
+        "type": "paragraph",
+        "text": "While major coastal towns have their undeniable charm, the true reward of maritime travel lies in finding the quiet coves, hidden rocky shelves, and lonely stretches of shingle beach that sit just beyond the reach of standard transport links. These are places where the only sound is the rhythmic surge of the tide against the rocks and the distant call of seabirds drifting on the thermal currents."
+      },
+      {
+        "type": "paragraph",
+        "text": "Exploring these quieter fringes requires curiosity and a willingness to walk where paths are unpaved. Always verify local tide tables before setting out along shorelines, as many beautiful coastal paths become impassable at high water. Giving yourself permission to linger in these secluded spots without a strict itinerary allows for moments of profound quiet reflection."
+      },
+      {
+        "type": "conclusion",
+        "title": "A Lasting Horizon",
+        "text": "To travel by water is to accept a gentler rhythm, one where the destination matters less than the quality of attention you bring to the journey. By embracing the shifting tides, the bracing salt air, and the unhurried passage between shores, we return home with something rarer than photographs: a renewed capacity for stillness and a sharper eye for the quiet beauty of the world."
+      }
+    ],
+    "relatedPosts": [
+      "bali-between-the-tides",
+      "reading-the-weather-on-open-plateaus",
+      "mapping-the-open-horizon"
+    ],
+    "automationDate": "2026-10-23"
+  },
+  {
     "slug": "reading-the-weather-on-open-plateaus",
     "title": "Reading the Weather on Open Plateaus",
     "subtitle": "How to observe shifts in high-altitude environments for a calmer journey",
