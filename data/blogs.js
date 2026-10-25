@@ -1,6 +1,154 @@
 /* One source of truth for the Serein blog. Images are selected from the approved existing photo library. */
 window.SEREIN_BLOGS = [
   {
+    "slug": "the-geometry-of-coastal-walls",
+    "title": "The Geometry of Coastal Walls",
+    "subtitle": "Observing the dry-stone boundaries that shape historic shorelines and guide our footing along the edge of land and sea.",
+    "category": "Coastlines",
+    "tags": [
+      "Coastal walking",
+      "Design heritage",
+      "Material culture",
+      "Slow travel"
+    ],
+    "author": "Serein Editorial",
+    "publishDate": "2026-10-25",
+    "readTime": "4 min read",
+    "heroImage": {
+      "src": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1200&q=78&fm=webp",
+      "alt": "A bright sea cove seen from above"
+    },
+    "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=78&fm=webp",
+        "alt": "A wooded path inviting a quiet walk",
+        "caption": "A wooded path inviting a quiet walk, echoing the reflective pace of a considered maritime journey."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1200&q=78&fm=webp",
+        "alt": "Soft evening light over a quiet landscape",
+        "caption": "Soft evening light over a quiet landscape, mirroring the calm transition of the coastal evening."
+      }
+    ],
+    "blocks": [
+      {
+        "type": "lead",
+        "text": "Along many historic maritime edges, the boundary between land and ocean is mediated not by concrete or steel, but by dry-stone walls built centuries ago. These structures do more than mark property lines or defend against rising tides; they represent an intricate understanding of local geology and water movement. For the observant traveler, slowing down to read these formations offers a profound connection to the landscape, revealing how generations adapted to shifting shores without fighting them entirely."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "the-geometry-of-coastal-walls-the-logic-of-unmortared-stone",
+        "title": "The Logic of Unmortared Stone"
+      },
+      {
+        "type": "paragraph",
+        "text": "Dry-stone walling is an ancient craft defined by patience and precision. Without mortar to bind the pieces, builders relied entirely on gravity, friction, and an instinctive eye for balance. Every stone is selected and positioned to lock its neighbors into place, creating a porous matrix that accommodates the expansion of freezing winters and the powerful impact of coastal gales."
+      },
+      {
+        "type": "paragraph",
+        "text": "When walking past these boundaries, notice how the lower courses use heavier, broader foundations while the upper tiers taper inward. This technique prevents the wall from bowing outward over time. Understanding this geometry changes how one views a simple seaside path, transforming a rustic backdrop into a masterclass in structural resilience."
+      },
+      {
+        "type": "image",
+        "imageIndex": 0
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "the-geometry-of-coastal-walls-reading-local-geology-on-foot",
+        "title": "Reading Local Geology on Foot"
+      },
+      {
+        "type": "paragraph",
+        "text": "A walk along coastal walls is effectively a geological survey. Builders rarely transported heavy stone across great distances; instead, they used what the immediate terrain provided. In one region, the boundaries might be composed of dark, weathered basalt; a few miles further along the coast, they shift to pale, chalky limestone or coarse-grained granite."
+      },
+      {
+        "type": "paragraph",
+        "text": "Observing these subtle shifts in material helps travelers orient themselves within a broader ecological context. The walls speak of the nearby cliffs, the ancient quarries, and the glacial debris left behind millennia ago. It is a quiet form of mapping that requires no screen or guidebook, only a willingness to look closely at the earth beneath your boots."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "the-geometry-of-coastal-walls-ecological-corridors-for-coastal-flora",
+        "title": "Ecological Corridors for Coastal Flora"
+      },
+      {
+        "type": "paragraph",
+        "text": "Beyond their architectural function, dry-stone walls serve as vital micro-habitats for coastal flora and fauna. The tiny gaps between unmortared stones trap wind-blown seeds, moisture, and organic matter, creating miniature nurseries for salt-tolerant ferns, lichens, and mosses."
+      },
+      {
+        "type": "paragraph",
+        "text": "Lizards, insects, and nesting birds also find refuge within these labyrinthine spaces, shielded from harsh onshore winds and predatory gulls. Walking quietly beside a ancient wall often reveals a thriving ecosystem tucked away in the shadows, proving that human engineering and natural habitat can coexist in a seamless, understated balance."
+      },
+      {
+        "type": "practical",
+        "title": "Observing Historic Coastlines Responsibly",
+        "items": [
+          {
+            "label": "Footwear",
+            "value": "Wear sturdy, supportive boots suitable for uneven, slippery stone paths near water."
+          },
+          {
+            "label": "Access",
+            "value": "Verify local right-of-way rules and seasonal walking restrictions before setting out."
+          },
+          {
+            "label": "Conservation",
+            "value": "Never climb on or displace stones from historic walls; they are fragile cultural artifacts."
+          },
+          {
+            "label": "Tide Checks",
+            "value": "Always consult local tide tables to ensure safe passage along low-lying coastal paths."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "imageIndex": 1
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "the-geometry-of-coastal-walls-the-evolution-of-marine-boundaries",
+        "title": "The Evolution of Marine Boundaries"
+      },
+      {
+        "type": "paragraph",
+        "text": "As shorelines recede and advance under the influence of changing weather patterns, coastal walls tell the story of human adaptation over centuries. Some sections stand proudly above the high-tide line, while others are half-submerged, serving as melancholy markers of land lost to the encroaching sea."
+      },
+      {
+        "type": "paragraph",
+        "text": "Tracing these boundaries offers a tangible sense of temporal depth. They remind us that the coastline is never a fixed canvas, but a dynamic, negotiation zone where human architecture continually adapts to the rhythms of the tide. Observing these transitions encourages a humbler perspective on our own temporary presence along the water's edge."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "the-geometry-of-coastal-walls-a-mindful-pace-along-the-edge",
+        "title": "A Mindful Pace Along the Edge"
+      },
+      {
+        "type": "paragraph",
+        "text": "The presence of historic walls naturally alters the rhythm of a walk. They create sheltered corridors, frame distant vistas of open water, and gently guide the eye along winding coastal paths. To travel slowly through these landscapes is to notice the patina of salt on the stone, the play of passing cloud shadows, and the precise angle where land yields to the deep."
+      },
+      {
+        "type": "paragraph",
+        "text": "By focusing on these considered details, the journey becomes less about reaching a specific destination and more about tuning in to the quiet language of the coast. It is an invitation to leave hurried schedules behind and match your footsteps to the enduring pulse of the tide and stone."
+      },
+      {
+        "type": "conclusion",
+        "title": "The Lasting Impression of the Shore",
+        "text": "In an era defined by rapid movement and ephemeral digital experiences, the dry-stone walls of historic coastlines stand as monuments to patience, utility, and quiet grace. They ask nothing of the traveler except a moment of observation and a respect for their delicate, unmortared balance. The next time you find yourself tracing the edge of the sea, let these ancient boundaries guide your pace, and discover the deep satisfaction of reading a landscape built to last."
+      }
+    ],
+    "relatedPosts": [
+      "the-architecture-of-the-morning-tide",
+      "finding-stillness-on-the-water",
+      "bali-between-the-tides"
+    ],
+    "automationDate": "2026-10-25"
+  },
+  {
     "slug": "the-architecture-of-the-morning-tide",
     "title": "The Architecture of the Morning Tide",
     "subtitle": "Observing coastal rhythms and the quiet hours before the shore awakens.",
