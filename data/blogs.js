@@ -1,6 +1,154 @@
 /* One source of truth for the Serein blog. Images are selected from the approved existing photo library. */
 window.SEREIN_BLOGS = [
   {
+    "slug": "the-grammar-of-coastal-paths",
+    "title": "The Grammar of Coastal Paths",
+    "subtitle": "How walking the margin between land and sea refines our sense of distance, time, and attention.",
+    "category": "Coastlines",
+    "tags": [
+      "Coastal walks",
+      "Slow travel",
+      "Maritime landscapes",
+      "Considered journeys"
+    ],
+    "author": "Serein Editorial",
+    "publishDate": "2026-10-26",
+    "readTime": "5 min read",
+    "heroImage": {
+      "src": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1200&q=78&fm=webp",
+      "alt": "A bright sea cove seen from above"
+    },
+    "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=78&fm=webp",
+        "alt": "A wooded path inviting a quiet walk",
+        "caption": "A wooded path inviting a quiet walk, echoing the reflective pace of a considered maritime journey."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1200&q=78&fm=webp",
+        "alt": "Soft evening light over a quiet landscape",
+        "caption": "Soft evening light over a quiet landscape, mirroring the calm transition of the coastal evening."
+      }
+    ],
+    "blocks": [
+      {
+        "type": "lead",
+        "text": "There is a distinct tempo to walking where the solid earth meets the shifting sea. Unlike inland routes that wind through forests or climb predictably toward summits, coastal paths require a constant renegotiation of attention. They demand that we watch the footing beneath our boots while simultaneously tracking the horizon, tuning into the rhythm of the tides, and reading the subtle shifts in wind and light. When we slow our pace to match the margin of the continent, travel transforms from a checklist of sights into an exercise in deep observation."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "the-grammar-of-coastal-paths-reading-the-margin",
+        "title": "Reading the Margin"
+      },
+      {
+        "type": "paragraph",
+        "text": "A coastal path is never entirely static. Even routes carved into ancient granite or laid down across pebble beaches respond to the daily pulse of the ocean. Walking these trails means learning to read the subtle indicators of the environment: the dampness of the stones telling tales of the high tide, the direction of the prevailing gales etched into the gnarled posture of the coastal scrub, and the shifting colors of the water from deep slate to translucent emerald."
+      },
+      {
+        "type": "paragraph",
+        "text": "To travel slowly along a shoreline is to appreciate the geography of transition. Instead of rushing from one notable landmark to the next, the traveler finds interest in the micro-topography of the shore—the way rock pools mirror the open sky, the intricate patterns of lichen clinging to salt-spray-battered boulders, and the sudden drop-offs where cliffs plunge straight into the surge."
+      },
+      {
+        "type": "image",
+        "imageIndex": 0
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "the-grammar-of-coastal-paths-the-pacing-of-the-tides",
+        "title": "The Pacing of the Tides"
+      },
+      {
+        "type": "paragraph",
+        "text": "On inland journeys, time is often measured by distance covered or hours spent on the trail. Along the coast, however, time is dictated by a much older clock. The ebb and flow of the tide determine which headlands can be safely rounded and which hidden coves remain accessible only for a brief window each day. This rhythmic constraint naturally alters our relationship with the clock."
+      },
+      {
+        "type": "paragraph",
+        "text": "Instead of fighting an itinerary, the wise traveler aligns their day with the ocean's breath. A morning walk might begin just as the tide recedes, revealing hard-packed sand and newly exposed shelves of rock, while the afternoon is best spent on elevated clifftop paths where the view remains uninterrupted regardless of the water level below."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "the-grammar-of-coastal-paths-sensory-shifts-in-the-maritime-air",
+        "title": "Sensory Shifts in the Maritime Air"
+      },
+      {
+        "type": "paragraph",
+        "text": "One of the immediate pleasures of coastal walking is the transformation of the sensory landscape. The heavy scent of pine or dry earth gives way to the sharp, clean aroma of salt water, damp seaweed, and crushed wild fennel. The auditory experience shifts as well, trading the rustle of deciduous leaves for the steady, hypnotic percussion of waves breaking against distant reefs."
+      },
+      {
+        "type": "paragraph",
+        "text": "This sensory clarity tends to quiet the internal dialogue. When the wind is strong enough to require leaning slightly into it, and the sound of the surf fills the acoustic space, extraneous thoughts simply fall away. The act of walking becomes entirely embodied, anchored firmly in the present moment by the physical realities of wind, spray, and uneven stone."
+      },
+      {
+        "type": "practical",
+        "title": "Essential Preparations for Coastal Walking",
+        "items": [
+          {
+            "label": "Tide Tables",
+            "value": "Always verify local tide schedules and access restrictions before embarking on beach-level routes."
+          },
+          {
+            "label": "Footwear",
+            "value": "Choose shoes with deep rubber treads designed for wet, slippery rock surfaces."
+          },
+          {
+            "label": "Weather Layers",
+            "value": "Pack a wind-resistant, water-repellent outer layer regardless of the morning forecast."
+          },
+          {
+            "label": "Navigation",
+            "value": "Carry a reliable topographical map, as coastal fog can reduce visibility rapidly."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "imageIndex": 1
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "the-grammar-of-coastal-paths-packing-light-for-the-shore",
+        "title": "Packing Light for the Shore"
+      },
+      {
+        "type": "paragraph",
+        "text": "Coastal environments are notoriously mercurial. A morning that begins in brilliant, warm sunshine can quickly transform into a misty afternoon chilled by sudden sea frets. Because of this meteorological volatility, preparing for a coastal walk requires a thoughtful approach to carrying what you need without weighing yourself down."
+      },
+      {
+        "type": "paragraph",
+        "text": "The essentials are remarkably simple: a windproof shell that blocks the damp air, sturdy footwear with reliable traction on wet rock, and a lightweight pack that leaves your hands free for balance. When you carry less, you move with greater agility, allowing you to scramble down to a secluded cove or lengthen your walk on impulse when the evening light holds steady."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "the-grammar-of-coastal-paths-the-practice-of-unhurried-observation",
+        "title": "The Practice of Unhurried Observation"
+      },
+      {
+        "type": "paragraph",
+        "text": "Perhaps the greatest gift of a coastal walk is permission to do very little other than watch. Unlike urban explorations that encourage constant engagement with architecture, commerce, and crowds, the shoreline offers vast expanses of emptiness punctuated only by the flight of gulls, the passing of distant container ships, and the play of clouds over the water."
+      },
+      {
+        "type": "paragraph",
+        "text": "Stopping frequently is not an interruption of the journey; it is the point of the journey. Lean against a dry-stone wall, take out a notebook, or simply stand quietly and watch how the light changes as the sun begins its descent toward the horizon. These unstructured pauses often become the most enduring memories of any trip."
+      },
+      {
+        "type": "conclusion",
+        "title": "Returning with a Quieter Mind",
+        "text": "When your journey brings you back from the edge of the sea, the internal quiet often lingers long after you have left the trail behind. Walking the coast teaches us to respect natural rhythms, to notice small variations in light and weather, and to find contentment in open horizons. It is a reminder that travel need not be complicated or hurried to be profound—it simply requires stepping out onto the path and matching your stride to the rhythm of the tides."
+      }
+    ],
+    "relatedPosts": [
+      "the-geometry-of-coastal-walls",
+      "the-architecture-of-the-morning-tide",
+      "finding-stillness-on-the-water"
+    ],
+    "automationDate": "2026-10-26"
+  },
+  {
     "slug": "the-geometry-of-coastal-walls",
     "title": "The Geometry of Coastal Walls",
     "subtitle": "Observing the dry-stone boundaries that shape historic shorelines and guide our footing along the edge of land and sea.",
