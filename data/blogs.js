@@ -1,6 +1,151 @@
 /* One source of truth for the Serein blog. Images are selected from the approved existing photo library. */
 window.SEREIN_BLOGS = [
   {
+    "slug": "the-silent-hours-of-the-northern-coast",
+    "title": "The Silent Hours of the Northern Coast",
+    "subtitle": "Discovering empty headlands and historic walking routes when the crowds have departed.",
+    "category": "Coastlines",
+    "tags": [
+      "coastal walks",
+      "quiet travel",
+      "northern shores",
+      "off season",
+      "landscapes"
+    ],
+    "author": "Serein Editorial",
+    "publishDate": "2026-11-10",
+    "readTime": "5 min read",
+    "heroImage": {
+      "src": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1200&q=78&fm=webp",
+      "alt": "A bright sea cove seen from above"
+    },
+    "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1200&q=78&fm=webp",
+        "alt": "A mountain ridge catching the last light of day",
+        "caption": "A mountain ridge catching the last light of day—keep a spare hour for the light to change and reveal the true texture of the stone."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1200&q=78&fm=webp",
+        "alt": "Soft evening light over a quiet landscape",
+        "caption": "Soft evening light over a quiet landscape, mirroring the calm transition of the evening."
+      }
+    ],
+    "blocks": [
+      {
+        "type": "lead",
+        "text": "There is a distinct hour on the northern coast when the day's first light strips away the noise of the mainland. Long before the morning ferries dock and the coastal cafes lift their shutters, the headlands belong entirely to the wind, the gulls, and the steady rhythm of the tide. Traveling during these shoulder periods requires a shift in perspective, moving away from frantic itineraries toward a slower, more observant engagement with the shoreline. By aligning your days with the natural shifts of weather and water, you discover a landscape that feels both deeply grounding and remarkably untouched."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "the-silent-hours-of-the-northern-coast-understanding-the-tidal-window",
+        "title": "Understanding the Tidal Window"
+      },
+      {
+        "type": "paragraph",
+        "text": "Coastal exploration is entirely dictated by the rise and fall of the water. When you plan your walks around the low tide, ancient paths across the rocks and hidden sand coves reveal themselves for only a brief window before vanishing again beneath the surf. This natural constraint eliminates the temptation to rush, forcing you to consult local tide tables with the same care you would give to a train timetable."
+      },
+      {
+        "type": "paragraph",
+        "text": "Observing the water's edge also teaches you patience. A beach that feels impassable in the morning can transform into a wide, firm thoroughfare by afternoon. Learning to read these shifts allows you to access secluded headlands that remain entirely hidden from the standard roadside viewpoints, offering a profound sense of solitude just a few miles from busier settlements."
+      },
+      {
+        "type": "image",
+        "imageIndex": 0
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "the-silent-hours-of-the-northern-coast-packing-for-variable-coastal-climates",
+        "title": "Packing for Variable Coastal Climates"
+      },
+      {
+        "type": "paragraph",
+        "text": "The weather along exposed northern shores rarely remains static for long. A bright morning of sharp, clear sunlight can give way to a sudden sea mist or a brisk offshore squall within the space of twenty minutes. Packing for this environment is an exercise in layering, prioritizing windproof shells, breathable wool mid-layers, and footwear with reliable grip on slick, seaweed-covered stones."
+      },
+      {
+        "type": "paragraph",
+        "text": "Carrying a compact dry bag for your notebook and camera ensures that unpredictable rain showers will not interrupt your day. Rather than fighting the elements, the right kit allows you to lean into them, turning a sudden downpour into an atmospheric invitation to pause, shelter behind a stone outcrop, and watch the changing textures of the sea."
+      },
+      {
+        "type": "practical",
+        "title": "Essential Coastal Planning Notes",
+        "items": [
+          {
+            "label": "Best Time to Walk",
+            "value": "Two hours before low tide for maximum beach and headland access."
+          },
+          {
+            "label": "Navigation",
+            "value": "Combine local topographical paper maps with offline digital backups."
+          },
+          {
+            "label": "Footwear",
+            "value": "Water-resistant hiking shoes with deep treads for wet rock surfaces."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "the-silent-hours-of-the-northern-coast-the-art-of-the-off-season-departure",
+        "title": "The Art of the Off-Season Departure"
+      },
+      {
+        "type": "paragraph",
+        "text": "Traveling to coastal regions outside the peak summer months fundamentally alters your experience of place. Without the distraction of heavy tourist traffic, local communities return to their own rhythms, and historic paths are left to local shepherds and the occasional long-distance walker. This quietude invites deeper observation of architecture, plant life, and the subtle sounds of the landscape."
+      },
+      {
+        "type": "paragraph",
+        "text": "The light during these months is another reward. Low angles of the sun cast long, dramatic shadows across cliff faces and sandy bays throughout the entire day, rendering the scenery perpetually in motion. It is an ideal time for photography, sketching, or simply sitting quietly on a weathered wooden bench to watch the horizon."
+      },
+      {
+        "type": "image",
+        "imageIndex": 1
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "the-silent-hours-of-the-northern-coast-navigating-without-digital-distraction",
+        "title": "Navigating Without Digital Distraction"
+      },
+      {
+        "type": "paragraph",
+        "text": "While digital navigation tools are undeniably useful, relying solely on them along the coast can disconnect you from your surroundings. Coastal topography relies on physical landmarks—a jagged sea stack, a whitewashed navigation marker, or the sudden curve of a shingle ridge. Pairing a paper map with a keen eye for the terrain keeps you grounded in the physical reality of the walk."
+      },
+      {
+        "type": "paragraph",
+        "text": "Turning your phone to airplane mode for a few hours does more than conserve battery; it alters your internal pace. Without the constant ping of notifications, your awareness expands to take in the cry of curlews, the smell of salt spray, and the shifting patterns of cloud overhead, turning a simple walk into a restorative mental reset."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "the-silent-hours-of-the-northern-coast-finding-local-nourishment",
+        "title": "Finding Local Nourishment"
+      },
+      {
+        "type": "paragraph",
+        "text": "Eating along the northern coast is best approached with simplicity in mind. Small harbors and fishing villages often support modest family-run counters serving the catch of the day, accompanied by simple homemade bread and salted butter. These meals are rarely elaborate, but their freshness reflects the immediate environment from which they were sourced."
+      },
+      {
+        "type": "paragraph",
+        "text": "Seeking out these understated spots requires talking with local residents or checking seasonal opening notices in person, as many smaller establishments operate on flexible schedules dictated by weather and supply. Slowing down to share a simple bowl of soup or a warm pastry becomes a meaningful ritual of connection with the coastal community."
+      },
+      {
+        "type": "conclusion",
+        "title": "The Lingering Resonance of the Shore",
+        "text": "Leaving the northern coast is rarely a clean break. The steady cadence of the waves and the sharp, salt-laden air tend to linger in your thoughts long after you have returned to inland routines. By embracing the quieter seasons, respecting the natural constraints of tide and weather, and allowing yourself to move at the speed of the landscape, coastal travel transforms from a brief holiday into a lasting state of mind."
+      }
+    ],
+    "relatedPosts": [
+      "the-grammar-of-coastal-paths",
+      "the-measured-rhythm-of-island-footpaths",
+      "the-geometry-of-coastal-walls"
+    ],
+    "automationDate": "2026-11-10"
+  },
+  {
     "slug": "the-texture-of-the-stone-path-walking-ancient-rural-routes",
     "title": "The Texture of the Stone Path: Walking Ancient Rural Routes",
     "subtitle": "An observant guide to tracing historic footpaths, understanding regional geology, and moving through rural landscapes with intention.",
