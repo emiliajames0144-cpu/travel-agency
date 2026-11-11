@@ -1,6 +1,151 @@
 /* One source of truth for the Serein blog. Images are selected from the approved existing photo library. */
 window.SEREIN_BLOGS = [
   {
+    "slug": "the-measured-transition-of-coastal-tides",
+    "title": "The Measured Transition of Coastal Tides",
+    "subtitle": "Observing the rhythm of the shore before the day settles into motion",
+    "category": "Coastlines",
+    "tags": [
+      "Coastal journeys",
+      "Quiet travel",
+      "Tidal patterns",
+      "Slow exploration",
+      "Seaside observations"
+    ],
+    "author": "Serein Editorial",
+    "publishDate": "2026-11-11",
+    "readTime": "4 min read",
+    "heroImage": {
+      "src": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1200&q=78&fm=webp",
+      "alt": "A bright sea cove seen from above"
+    },
+    "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1200&q=78&fm=webp",
+        "alt": "Soft evening light over a quiet landscape",
+        "caption": "Soft evening light over a quiet landscape, mirroring the calm transition of the evening."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=2000&q=82&fm=webp",
+        "alt": "A tropical Bali shoreline framed by palms",
+        "caption": "A tropical Bali shoreline framed by palms, where the gentle wash of the tide marks the passage of the afternoon."
+      }
+    ],
+    "blocks": [
+      {
+        "type": "lead",
+        "text": "There is a brief, unhurried window each day when the coast belongs entirely to the movement of water. Long before the pathways fill and the warmth of the sun settles upon the sand, the tide recedes to reveal a temporary geography of exposed rock, salt pools, and damp stone. Engaging with this rhythm requires no special expertise—only a willingness to align your morning schedule with the turning of the sea. By learning to read the basic signs of the shoreline, travelers can transform a simple walk into an exercise in deep observation, noticing the subtle shifts in wind, light, and surface texture that define the maritime edge."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "the-measured-transition-of-coastal-tides-reading-the-margin-before-the-walk",
+        "title": "Reading the Margin Before the Walk"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every coastal landscape operates on a schedule dictated by lunar gravitational pulls and local bathymetry. Before setting out along a shoreline path, it is essential to consult local tide tables and verify the exact time of the low and high marks. Arriving just as the water begins to pull back offers the clearest access to hidden coves and interlocking shelves of rock that remain submerged for most of the day."
+      },
+      {
+        "type": "paragraph",
+        "text": "Beyond printed charts, the environment itself provides immediate feedback. Listen to the frequency of the breaks against the outer reefs or headlands, and observe the line of fresh seaweed left stranded on the upper sand. These visual and auditory cues establish a baseline for your journey, allowing you to move with confidence and avoid being cornered by an incoming swell against a steep cliff face."
+      },
+      {
+        "type": "image",
+        "imageIndex": 0
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "the-measured-transition-of-coastal-tides-footwear-and-the-reality-of-wet-stone",
+        "title": "Footwear and the Reality of Wet Stone"
+      },
+      {
+        "type": "paragraph",
+        "text": "Navigating exposed intertidal zones requires careful attention to what is on your feet. Smooth, wet boulders covered in fine green algae demand footwear with dependable traction, while sandy expanses and shallow salt channels call for materials that dry quickly and shed grit without causing friction."
+      },
+      {
+        "type": "paragraph",
+        "text": "Many experienced coastal walkers prefer lightweight trail shoes with robust rubber outsoles rather than heavy waterproof boots, which can trap moisture once submerged and become cumbersome on dry sand. Packing a lightweight dry bag within your daypack ensures that sensitive items like cameras, notebooks, and verification charts remain safe if a stray wave reaches higher than anticipated."
+      },
+      {
+        "type": "practical",
+        "title": "Essential Coastal Planning Notes",
+        "items": [
+          {
+            "label": "Best Observation Window",
+            "value": "Two hours before to one hour after low tide"
+          },
+          {
+            "label": "Recommended Footwear",
+            "value": "Quick-drying trail shoes with high-traction rubber soles"
+          },
+          {
+            "label": "Safety Rule",
+            "value": "Identify cliff exit paths before walking narrow shoreline shelves"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "the-measured-transition-of-coastal-tides-the-chemistry-of-light-on-wet-surfaces",
+        "title": "The Chemistry of Light on Wet Surfaces"
+      },
+      {
+        "type": "paragraph",
+        "text": "The visual character of a coastline transforms entirely during the transition hours between night and full daylight. Low-angled sunlight striking wet sand and reflective rock pools creates a mirror-like quality that softens shadows and highlights the microscopic textures of shells, pebbles, and drift timber."
+      },
+      {
+        "type": "paragraph",
+        "text": "This is the ideal time for slow observation rather than long-distance mileage. When the sun is positioned low on the horizon, colors appear less saturated but far more nuanced, shifting from slate grey and deep indigo to pale amber and copper as the clouds catch the first direct rays. Stopping frequently to watch the play of light across a tidal pool reveals miniature ecosystems in sharp, fleeting detail."
+      },
+      {
+        "type": "image",
+        "imageIndex": 1
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "the-measured-transition-of-coastal-tides-mapping-the-safe-returns",
+        "title": "Mapping the Safe Returns"
+      },
+      {
+        "type": "paragraph",
+        "text": "A common oversight during coastal walks is becoming so engrossed in exploring outward headlands that the return route is quietly cut off by the rising tide. To prevent this, always identify at least two elevated escape points or inland paths before committing to a remote stretch of shoreline."
+      },
+      {
+        "type": "paragraph",
+        "text": "If you notice water beginning to lap against the base of a cliff or rock barrier where dry sand existed twenty minutes earlier, it is time to turn back or ascend to higher ground. The ocean moves with deceptive speed across flat beaches, and respecting its boundary ensures that your morning remains restorative rather than stressful."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "the-measured-transition-of-coastal-tides-carrying-only-what-the-morning-requires",
+        "title": "Carrying Only What the Morning Requires"
+      },
+      {
+        "type": "paragraph",
+        "text": "Traveling light along the coast frees the senses to focus on the immediate surroundings. A heavy pack creates physical fatigue and distracts from the delicate sounds of seabirds, shifting gravel, and the steady breath of the offshore breeze."
+      },
+      {
+        "type": "paragraph",
+        "text": "Keep your equipment pared down to essentials: a sturdy water flask, a wind-resistant outer layer, a tide chart, and perhaps a small journal to record observations. By reducing the physical weight you carry, you invite a greater mental receptivity to the subtle details of the maritime landscape."
+      },
+      {
+        "type": "conclusion",
+        "title": "The Lingering Quiet of the Shore",
+        "text": "When you align your travels with the natural pulse of the tides, the coastline ceases to be merely a scenic backdrop and becomes an active participant in your journey. The deliberate pace required by the shifting water teaches patience, reminding us that some of the most rewarding moments of travel cannot be rushed. By stepping softly and observing the subtle markers of the sea, you return from the water's edge with a renewed sense of clarity and calm."
+      }
+    ],
+    "relatedPosts": [
+      "the-silent-hours-of-the-northern-coast",
+      "the-measured-rhythm-of-island-footpaths",
+      "the-grammar-of-coastal-paths"
+    ],
+    "automationDate": "2026-11-11"
+  },
+  {
     "slug": "the-silent-hours-of-the-northern-coast",
     "title": "The Silent Hours of the Northern Coast",
     "subtitle": "Discovering empty headlands and historic walking routes when the crowds have departed.",
